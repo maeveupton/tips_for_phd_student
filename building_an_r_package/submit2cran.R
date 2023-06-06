@@ -24,6 +24,11 @@ devtools::check(vignettes = F) # vignettes = F doesnt check your vignette and ma
 # CRAN will reply saying there's an error, and you can reply back saying why you think
 # the error is a false positive.
 
+# From the book
+usethis::use_news_md()
+usethis::use_cran_comments()
+devtools::check_mac_release()
+
 # windows tests
 check_win_release()
 check_win_devel()
@@ -37,6 +42,7 @@ checkRHUB$print()
 checkCRAN <- rhub::check_for_cran()
 checkCRAN$cran_summary()
 checkCRAN$print()
+
 
 
 # CRAN submission ---------------------------------------------------------
