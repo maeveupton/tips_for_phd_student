@@ -27,6 +27,9 @@ https://rtyley.github.io/bfg-repo-cleaner/
 ## R package
 - How to make an R package follow these instructions: https://r-pkgs.org/ 
 - This repo has a list of all the tests that CRAN require prior to submission.
+## Submitting to CRAN
+- Use the submit_to_cran.R script for a list of all the test and refer to the book for more detail
+- If having an issue with JAGS "version 4 not found" try setting up a new workflow using the instructions from: https://github.com/r-lib/actions
 ## Installing updates/packages in R
 - Use Homebrew: https://formulae.brew.sh/
 
