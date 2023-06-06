@@ -24,9 +24,16 @@
 - Maximum git push is 100M but every time you commit it saves it. If you commit a larger file and want to remove this commit later check out:
 https://rtyley.github.io/bfg-repo-cleaner/
 
+## Arxiv
+- When you have submitted your paper to a journal, then you can upload it to Arxiv: https://arxiv.org/
+- You will need someone to refer you to the specific section of arxiv which may take a day to do. Watch which section of Arxiv you are uploading to, e.g. stat os stats_ML as they we require different levels of approval.
+
 ## R package
 - How to make an R package follow these instructions: https://r-pkgs.org/ 
 - This repo has a list of all the tests that CRAN require prior to submission.
+## Submitting to CRAN
+- Use the submit2cran.R script for a list of all the test and refer to the book for more detail
+- If having an issue with JAGS "version 4 not found" try setting up a new workflow using the instructions from: https://github.com/r-lib/actions
 ## Installing updates/packages in R
 - Use Homebrew: https://formulae.brew.sh/
 
