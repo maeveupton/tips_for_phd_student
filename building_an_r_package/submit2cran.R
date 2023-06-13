@@ -34,6 +34,7 @@ check_win_release()
 check_win_devel()
 
 # R-hub tests
+#rhub::validate_email() --> have issue with email
 checkRHUB <- check_rhub()
 checkRHUB$cran_summary()
 checkRHUB$print()
@@ -53,6 +54,7 @@ submit_cran()
 
 
 # Resubmit-------
+# The version is no longer 0.900.000 it should be something like 0.1.00
 
 
 
