@@ -25,7 +25,7 @@
 https://rtyley.github.io/bfg-repo-cleaner/
 
 ## Arxiv
-- When you have submitted your paper to a journal, then you can upload it to Arxiv: https://arxiv.org/
+- When you have submitted your paper to a journal or before submitting (check requirements of journal to see if its allowed), then you can upload it to Arxiv and use Overleaf to tidy up the upload before submitting: https://arxiv.org/
 - You will need someone to refer you to the specific section of arxiv which may take a day to do. Watch which section of Arxiv you are uploading to, e.g. stat os stats_ML as they we require different levels of approval.
 
 ## R package
