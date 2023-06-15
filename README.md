@@ -34,6 +34,8 @@ https://rtyley.github.io/bfg-repo-cleaner/
 ## Submitting to CRAN
 - Use the submit2cran.R script for a list of all the test and refer to the book for more detail
 - If having an issue with JAGS "version 4 not found" try setting up a new workflow using the instructions from: https://github.com/r-lib/actions
+- Size of the package must be 5MB see: https://cran.r-project.org/web/packages/policies.html
+- Other checks: https://rcmdcheck.r-lib.org/
 ## Installing updates/packages in R
 - Use Homebrew: https://formulae.brew.sh/
 
