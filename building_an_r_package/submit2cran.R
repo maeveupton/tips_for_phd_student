@@ -5,7 +5,7 @@ library(testthat)
 
 # Devtools tests ----------------------------------------------------------
 document() # this just updates files like you NAMESPACE (you've probably been already using this)
-devtools::test() # if you have any test files (like testThat), this runs the tests (not nessecery for CRAN)
+devtools::test() # if you have any test files (like testThat), this runs the tests (not necessary for CRAN)
 
 # This one actually checks if your package has an errors, warnings, or notes. These ALL need to
 # be resolved. CRAN wont publish your package if there's any errors, warnings, or notes
@@ -15,7 +15,7 @@ devtools::check(vignettes = F) # vignettes = F doesnt check your vignette and ma
 
 # CRAN checks -------------------------------------------------------------
 
-# Here's where it can get complictaed!! Your package gets compiled on different operating systems.
+# Here's where it can get complicated!! Your package gets compiled on different operating systems.
 # So, it may compile properly on, say, a Mac... but it may fail on a windows machine...
 # Some of these issues can be complicated to fix, or maybe outside of your control to fix.
 # After you run some of these checks (which are slow to run), you'll get emailed with a huge log file.
