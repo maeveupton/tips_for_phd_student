@@ -43,6 +43,7 @@ https://rtyley.github.io/bfg-repo-cleaner/
 - There is a specific template which is set up using these instructions: https://rjournal.github.io/rjtools/
 - Becareful if naming code chunks do not use load_new, i.e. _, this leads to problems. Also % in the caption needs to be \\%.
 - There is a limit of 100 MB when submitting
+- CHECK hidden files in mac. There was a .git file in mine that caused huge memory issue!
 ## Installing updates/packages in R
 - Use Homebrew: https://formulae.brew.sh/
 
