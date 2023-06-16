@@ -37,6 +37,12 @@ https://rtyley.github.io/bfg-repo-cleaner/
 - If having an issue with JAGS "version 4 not found" try setting up a new workflow using the instructions from: https://github.com/r-lib/actions and look at https://www.tidyverse.org/blog/2022/06/actions-2-0-0/
 - Size of the package must be 5MB see: https://cran.r-project.org/web/packages/policies.html
 - Other checks: https://rcmdcheck.r-lib.org/
+
+## Submitting to Rjournal
+- Review this before you start: https://rjournal.github.io/index.html
+- There is a specific template which is set up using these instructions: https://rjournal.github.io/rjtools/
+- Becareful if naming code chunks do not use load_new, i.e. _, this leads to problems. Also % in the caption needs to be \\%.
+- There is a limit of 100 MB when submitting
 ## Installing updates/packages in R
 - Use Homebrew: https://formulae.brew.sh/
 
