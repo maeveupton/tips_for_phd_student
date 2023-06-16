@@ -20,9 +20,10 @@
 - Save this access code and use it when you are promoted for the username or password. This is known as HTTPS section. You will need this if you want to git push or git commit from the terminal.
 - SSH is a different process and requires a separate code
 - Github desktop is great
-- If you have very large files there is a limit on Github desktop of 100M. This can be overcome using the terminal. Check out: https://git-lfs.com/
+- If you have very large files there is a limit on Github desktop of 100M. This can be overcome using the terminal. Check out: https://git-lfs.com/ or https://guide.ncloud-docs.com/beta/docs/en/sourcecommit-use-lfs
 - Maximum git push is 100M but every time you commit it saves it. If you commit a larger file and want to remove this commit later check out:
 https://rtyley.github.io/bfg-repo-cleaner/
+
 
 ## Arxiv
 - When you have submitted your paper to a journal or before submitting (check requirements of journal to see if its allowed), then you can upload it to Arxiv and use Overleaf to tidy up the upload before submitting: https://arxiv.org/
