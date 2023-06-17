@@ -44,6 +44,7 @@ https://rtyley.github.io/bfg-repo-cleaner/
 - Becareful if naming code chunks do not use load_new, i.e. _, this leads to problems. Also % in the caption needs to be \\%.
 - There is a limit of 100 MB when submitting
 - CHECK hidden files in mac. There was a .git file in mine that caused huge memory issue!
+- The RJtemplate_overleaf.zip contains the template for converting your Rjournal paper into an Overleaf format.
 ## Installing updates/packages in R
 - Use Homebrew: https://formulae.brew.sh/
 
